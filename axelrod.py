@@ -33,12 +33,12 @@ def game(pl1, pl2):
     resultpl2=pl2
     points1=0
     points2=0
-    if resultpl1=True and resultpl2=True:
+    if resultpl1==True and resultpl2==True:
         points1+=3
         points2+=3
-    elif resultpl1=True and resultpl2=False:
+    elif resultpl1==True and resultpl2==False:
         points2+=5
-    elif resultpl1=False and resultpl1=True:
+    elif resultpl1==False and resultpl1==True:
         points1+=5
     else:
         points1+=1
